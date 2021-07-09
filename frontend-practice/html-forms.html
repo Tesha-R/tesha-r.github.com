@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+    <title>HTML Forms Practice</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #241c15;
+        font-size: 15px;
+        line-height: 1.5;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .msg-section {
+        width: 600px;
+        margin: 4em auto;
+      }
+      .form-wrap {
+        padding: 1.5rem;
+        box-shadow: rgb(46 41 51 / 8%) 0px 4px 16px,
+          rgb(71 63 79 / 16%) 0px 8px 24px;
+        border-radius: 8px;
+      }
+      label,
+      input,
+      textarea,
+      button {
+        width: 100%;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input,
+      textarea {
+        min-height: 46px;
+        margin-bottom: 20px;
+        padding: 0.5em 1em;
+        background-color: #ffffff;
+        border: 1px solid #d9d7e0;
+      }
+      textarea {
+        height: 100px;
+      }
+      input,
+      textarea,
+      button {
+        border-radius: 4px;
+      }
+      button {
+        padding: 0.25rem 0.75rem;
+        min-height: 2.5rem;
+        background-color: #6ec5ce;
+        border: 1px solid #6ec5ce;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="msg-section">
+      <div class="form-wrap">
+        <form action="server.js" method="POST">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required />
+          <label for="email">Email address</label>
+          <input type="text" name="email" id="email" required />
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            placeholder="What's your message?"
+            id="message"
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
