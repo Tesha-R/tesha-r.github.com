@@ -24,7 +24,6 @@ form {
   position: fixed;
   height: 100%;
   width: 100%;
-  text-align: center;
 }
 
 .row {
@@ -40,27 +39,35 @@ form {
 .colors {
   flex: 1;
   background-color: red;
-  padding: 1rem;
   position: relative;
 }
 
 .color-hex {
   position: fixed;
-  bottom: 30px;
+  bottom: 1rem;
   color: #ffffff;
+  text-align: center;
+  padding: 1rem;
 }
+
 .seed-color {
   display: inline-block;
   vertical-align: middle;
 }
+input {
+  height: 2.65rem;
+  cursor: pointer;
+}
 
 input,
 select {
-  border: 1px solid #aaa;
   border-radius: 0.375em;
+}
+
+select {
+  border: 1px solid #aaa;
   box-shadow: none;
-  height: 2.5em;
-  padding-left: 0.5rem;
+  padding: 0.65rem 1rem;
   margin-right: 0.5rem;
 }
 
@@ -69,7 +76,6 @@ select {
   border-radius: 0.375em;
   border-color: transparent;
   box-shadow: none;
-  border-width: 1px;
   color: #ffffff;
   cursor: pointer;
   justify-content: center;
