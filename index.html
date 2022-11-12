@@ -1,67 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Tesha | Designer and Frontend Developer | Portfolio</title>
-  <link href="styles/normalize.css" rel="stylesheet" type="text/css" />
-  <link href="styles/style.css" rel="stylesheet" type="text/css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Tesha Richardson | Designer and Frontend Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/index.css" />
 </head>
 
 <body>
-  <section class="main">
-    <div class="main-content container pd">
-      <h1 class="main-title">Designer / <br>Front-end Developer</h1>
-      <h2 class="sub-title">I love designing and coding beautiful simple things, and have fun doing it.</h2>
-      <blockquote>“Have no fear of perfection—you’ll never reach it.” Salvador Dali</blockquote>
-    </div>
-    <div class="main-img">
-    </div>
-  </section>
-    <!-- Section about -->
-  <section class="bio">
-    <div class="container pd fl">
-      <div class="contact-wrap">
-        <div class="bio-img">
+  <div class="main-el">
+    <header class="header-el">
+      <div><img src="assets/logo.svg" alt="logo" class="logo" /></div>
+      <div>
+        <a href="https://www.linkedin.com/in/tesharichardson/" target="_blank" class="link">Linkedin</a>
+        <a href="https://github.com/Tesha-R" target="_blank" class="link">Github</a>
+      </div>
+    </header>
+    <section class="hero-el">
+      <div>
+        <h1 class="title-xl title-clr">
+          Frontend Engineer creating simple impactful products.
+        </h1>
+        <p class="para-lg">
+          Hi, I am Tesha, an experienced Product Designer and Frontend
+          Engineer with a passion for making and crafting digital products,
+          tools and services that are simple, impactful and inspiring to
+          others.
+        </p>
+        <p class="para-sm">
+          A few technologies I’ve been working with recently:
+        </p>
+        <ul class="tech-el">
+          <li class="tech-item">JavaScript (ES6+)</li>
+          <li class="tech-item">React</li>
+          <li class="tech-item">Node.js</li>
+          <li class="tech-item">Material UI</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects-el">
+      <h2 class="title-lg title-clr">Some things I've built</h2>
+
+      <div class="flex proj-row">
+        <div class="fl-1">
+          <img src="assets/temp.png" class="img-100" alt="quiz thumbnail" />
         </div>
-        <div class="bio-contact">
-          <ul class="contact-links">
-            <li><img src="assets/linkedin-icon.svg" alt="linkedin icon" class="contact-icon"><a href="https://www.linkedin.com/in/tesharichardson/" target="_blank">LinkedIn</a></li>
-            <li><img src="assets/github-icon.svg" alt="github icon" class="contact-icon"><a href="https://github.com/Tesha-R" target="_blank">Github</a></li>
+        <div class="fl-1 content-el">
+          <h3>Trivia App</h3>
+          <p class="para-sm">
+            The Trivia App is an application using the React library. The
+            project uses an API to generate questions, and the app tallies up
+            the correct answers once the user has answered all the questions
+            and marked them complete.
+          </p>
+          <ul class="tech-el">
+            <li class="tech-item">VS Code</li>
+            <li class="tech-item">React</li>
+            <li class="tech-item">opentdb API</li>
+          </ul>
+          <p>
+            <a href="https://github.com/Tesha-R/trivia-app" target="_blank" class="btn">Github</a>
+            <a href="https://trivia-app-flame.vercel.app/" target="_blank" class="btn">Site</a>
+          </p>
+        </div>
+      </div>
+      <div class="flex proj-row">
+        <div class="fl-1">
+          <img src="assets/temp2.png" class="img-100" alt="quiz thumbnail" />
+        </div>
+        <div class="fl-1 content-el">
+          <h3>Flashcard App</h3>
+          <p class="para-sm">
+            This flashcard application gives users the ability to (CRUD )
+            create, delete, and update decks and cards.
+          </p>
+          <ul class="tech-el">
+            <li class="tech-item">VS Code</li>
+            <li class="tech-item">React</li>
+            <li class="tech-item">Material UI</li>
+            <li class="tech-item">Axios</li>
+            <li class="tech-item">Mongo</li>
           </ul>
         </div>
       </div>
-      <div class="about-wrap">
-        <h3>Hey, I’m Tesha</h3>
-        <p>I'm a Designer and Front-end Developer who loves designing and coding beautiful simple things and have fun doing it. Since beginning my journey nearly 12+ years ago, I've done work for universities, agencies, startups, and a variety of others. My portfolio spans a broad range of industries and products. My focus is on front-end development because I enjoy bringing ideas to life and translating designs into interactive experiences. I'm passionate about helping others and creating value wherever I can. These days, I spend my time growing my front-end development skills, and when I'm not solving coding or design challenges, I'm taking photos, drawing, enjoying the pacific northwest, or dreaming up my next project.</p>
-        <p>Portland, OR</p>
-      </div>
-    </div>
-  </section>
-    <!-- Section - projects -->
-  <section class="projects">
-    <h3 class="section-title">Projects</h3>
-    <div class="container pd fl">
-      <div class="project">
-        <h3 class="project-title">Project title</h3>
-        <p class="project-desc">lorem ipsum</p>
-      </div>
-      <div class="project">
-        <h3 class="project-title">Project title</h3>
-        <p class="project-desc">lorem ipsum</p>
-      </div>
-      <div class="project">
-        <h3 class="project-title">Project title</h3>
-        <p class="project-desc">lorem ipsum</p>
-      </div>
-    </div>
-  </section>
-  <!-- Section - footer -->
-  <footer>
-    <div class="container"><p>Handcrafted by me</p></div>
-  </footer>
+    </section>
+    <hr />
+    <footer>
+      <h4 class="title-lg">Design. Code. Repeat.</h4>
+      <p>Handcrafted by me</p>
+    </footer>
+  </div>
 </body>
 
 </html>

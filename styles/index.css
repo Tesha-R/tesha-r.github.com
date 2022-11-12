@@ -1,0 +1,153 @@
+body {
+  background-color: #131316;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.title-xl {
+  font-size: calc((6.5 - 1) * 1.2vw + 1rem);
+}
+
+.title-lg {
+  font-size: calc((3.5 - 1) * 1.2vw + 1rem);
+}
+
+a.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a.link:hover {
+  color: rgb(7, 136, 255);
+}
+
+.para-lg {
+  font-size: calc((2 - 1) * 1.2vw + 1rem);
+}
+
+.para-sm {
+  font-size: calc((1.25 - 1) * 1.2vw + 1rem);
+}
+
+.flex {
+  display: flex;
+}
+
+.fl-1 {
+  flex: 1;
+}
+
+.logo {
+  width: 50px;
+}
+
+.img-100 {
+  max-width: 100%;
+}
+
+hr {
+  margin: 5em 0;
+  background-color: #868698;
+  height: 1px;
+  border: none;
+}
+
+.btn {
+  min-width: 75px;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 0;
+  text-decoration: none;
+  color: rgba(7, 136, 255, 1);
+  border-radius: 5px;
+  border: 1px solid rgba(7, 136, 255, 1);
+  background-color: transparent;
+}
+
+a.btn:hover {
+  color: #ffffff;
+  background-color: rgba(7, 136, 255, 1);
+}
+
+.title-clr {
+  background: linear-gradient(99deg,
+      rgb(7, 136, 255) 0%,
+      rgb(153, 0, 255) 100%);
+  display: inline-block;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-el {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  padding-left: 12vw;
+  padding-right: 12vw;
+}
+
+.header-el {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-el a {
+  margin-left: 15px;
+}
+
+.hero-el {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+}
+
+.hero-el h1.title-xl {
+  margin: 0;
+}
+
+.hero-el .tech-item {
+  font-size: calc((1.25 - 1) * 1.2vw + 1rem);
+}
+
+.projects-el {
+  margin: 5rem 0;
+}
+
+.proj-row {
+  margin-bottom: 6rem;
+}
+
+.content-el {
+  padding: 3rem;
+  background-color: #1a1a1f;
+}
+
+.content-el h3 {
+  margin-top: 0;
+}
+
+.tech-el {
+  padding: 0;
+  margin: 0 0 2rem;
+}
+
+.tech-item {
+  color: #868698;
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .flex {
+    flex-direction: column;
+  }
+}
