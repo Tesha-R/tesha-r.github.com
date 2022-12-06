@@ -119,11 +119,11 @@ a.btn:hover {
 
 .proj-row {
   margin-bottom: 6rem;
+  background-color: #1a1a1f;
 }
 
 .content-el {
   padding: 3rem;
-  background-color: #1a1a1f;
 }
 
 .content-el h3 {
